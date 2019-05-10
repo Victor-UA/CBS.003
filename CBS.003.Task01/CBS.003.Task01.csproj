@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StreamWriters\Interfaces\IStreamWriter.cs" />
+    <Compile Include="StreamWriters\BasicStreamWriter.cs" />
+    <Compile Include="StreamWriters\UnderlineStreamWriter.cs" />
+    <Compile Include="StreamWriters\UpperCaseStreamWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
